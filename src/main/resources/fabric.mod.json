@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "anvilcharge",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Anvil Charge",
+  "description": "The Industrial Revolution and its consequences have been a disaster for the human race.",
   "authors": [
-    "Me!"
+    "orlouge"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/orlouge/anvilcharge",
+    "sources": "https://github.com/orlouge/anvilcharge"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/anvilcharge/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.orlouge.anvilcharge.AnvilChargeMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "anvilcharge.mixins.json"
   ],
 
   "depends": {
