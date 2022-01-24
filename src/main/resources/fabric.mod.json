@@ -9,11 +9,11 @@
     "orlouge"
   ],
   "contact": {
-    "homepage": "https://github.com/orlouge/anvilcharge",
-    "sources": "https://github.com/orlouge/anvilcharge"
+    "homepage": "https://github.com/orlouge/anvil-charge",
+    "sources": "https://github.com/orlouge/anvil-charge"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/anvilcharge/icon.png",
 
   "environment": "*",
