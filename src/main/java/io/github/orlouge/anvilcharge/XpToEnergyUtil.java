@@ -6,7 +6,7 @@ import team.reborn.energy.api.base.SimpleBatteryItem;
 public class XpToEnergyUtil {
 
     public static int getXpCost(long energy) {
-        return ((int) energy / AnvilChargeMod.ENERGY_PER_XP) +
+        return (int) (energy / AnvilChargeMod.ENERGY_PER_XP) +
                (energy % AnvilChargeMod.ENERGY_PER_XP == 0 ? 0 : 1);
     }
 
