@@ -36,8 +36,7 @@ public abstract class AnvilScreenHandlerMixin extends ForgingScreenHandler {
         if (
                 XpToEnergyUtil.isBattery(inputStack1) &&
                 inputStack2.isEmpty() &&
-                this.player.totalExperience > 0 &&
-                this.newItemName.isBlank()
+                this.player.totalExperience > 0
         ) {
             long energy = XpToEnergyUtil.getChargeAmount(inputStack1, this.player.totalExperience);
             if (energy > 0) {
